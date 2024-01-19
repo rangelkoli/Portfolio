@@ -49,8 +49,6 @@ export default function Home() {
       fontSize: "2rem",
       fontWeight: "bold",
       backgroundColor: "transparent",
-
-  
     }}>
       RANGEL KOLI
 
@@ -152,7 +150,7 @@ export default function Home() {
           className="heroSubtitle"
         >
           <Zoom triggerOnce={true} duration={1000} delay={100}>
-            <p className={kaushenScript.className}>I'm Rangel Koli</p>
+            <p className={kaushenScript.className}>I&apos;m Rangel Koli</p>
           </Zoom>
         </div>
         <div 
