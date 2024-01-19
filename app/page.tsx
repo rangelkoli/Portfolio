@@ -170,7 +170,7 @@ export default function Home() {
               Innovative technologist with a passion for 
               driving positive change through technology 
               and a commitment to pushing the boundaries 
-              of what's possible
+              of what&apos;s possible
             </p>
           </Zoom>
         </div>

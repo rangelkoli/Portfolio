@@ -31,3 +31,60 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.heroTitle {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+}
+
+.heroSubtitle {
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+  margin-bottom: 0.5em;
+}
+
+.heroParagraph {
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 4rem;
+  }
+
+  .heroSubtitle {
+    font-size: 3rem;
+  }
+
+  .heroParagraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 3rem;
+    margin-left: 0.5em !important;
+  }
+
+  .heroSubtitle {
+    font-size: 2rem;
+    margin-left: 0.5em !important;
+
+  }
+
+  .heroParagraph {
+    font-size: 1rem;
+    margin-left: 0.5em !important;
+
+  }
+}
