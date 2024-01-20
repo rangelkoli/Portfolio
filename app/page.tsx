@@ -36,6 +36,8 @@ export default function Home() {
       padding: "5px",
       overflow: "hidden",
     }}>
+          {/* Navbar*/}
+
       <div className="navbar">
   <div className="flex-1" onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -102,7 +104,9 @@ export default function Home() {
     height: "95vh",
     width: "100vw",
     position: "relative",
-  }}>
+  }}
+  className="heroContainer"
+  >
   
     <Grid container spacing={2}>
    
@@ -228,6 +232,7 @@ export default function Home() {
         Here are some of my projects
       </h2>
     </div>
+    {/* Find X Project*/}
 
     <div
     style={{
@@ -236,6 +241,8 @@ export default function Home() {
       justifyContent: "center",
       alignItems: "center",
       width: "100%",
+      marginBottom: "2rem",
+      marginTop: "2rem",
     }} 
     >
       <div style={{
@@ -250,7 +257,7 @@ export default function Home() {
                   //cursor: 'zoom-in'
                     cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
                     borderRadius: "2px",
-                    backgroundColor: "#3f75ff",
+                    backgroundColor: "blue",
                   }}>
                   <figure style={{
                     width: "100%",
@@ -268,15 +275,96 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
       </div>
-
-
-      
-
-
-
 </div>
+    {/*  Anonimo Project*/}
+    <div
+    style={{
+      position: "relative",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      width: "100%",
+      marginBottom: "2rem",
+      marginTop: "2rem",
+    }} 
+    >
+      <div style={{
+        position: "relative",
+        borderRadius: "0px",
+      }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl" style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "90vw",
+                  //cursor: 'zoom-in'
+                    cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
+                    borderRadius: "2px",
+                    backgroundColor: "#4c4cff",
+                  }}>
+                  <figure style={{
+                    width: "100%",
+                    padding: "10px",
+                  }}>
+                    <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
+                  </figure>
+                  <div className="card-body" style={{
+                    width: "100%",
+                  }}>
+                    <h2 className="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <div className="card-actions justify-end">
+                      <button className="btn btn-primary">Listen</button>
+                    </div>
+                  </div>
+                </div>
+      </div>
+</div>
+
+ {/*  NewsWebsite Project*/}
+ <div
+    style={{
+      position: "relative",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      width: "100%",
+    }} 
+    >
+      <div style={{
+        position: "relative",
+        borderRadius: "0px",
+      }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl" style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "90vw",
+                  //cursor: 'zoom-in',
+                    cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
+                    borderRadius: "2px",
+                    backgroundColor: "#9999ff",
+                  }}>
+                  <figure style={{
+                    width: "100%",
+                    padding: "10px",
+                  }}>
+                    <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
+                  </figure>
+                  <div className="card-body" style={{
+                    width: "100%",
+                  }}>
+                    <h2 className="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <div className="card-actions justify-end">
+                      <button className="btn btn-primary">Listen</button>
+                    </div>
+                  </div>
+                </div>
+      </div>
+</div>
+
 
 
 

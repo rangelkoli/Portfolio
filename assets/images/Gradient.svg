@@ -9,7 +9,7 @@
 <circle cx="219.836" cy="570.115" r="68.1057" fill="url(#paint2_linear_6_10)"/>
 </g>
 <g style="mix-blend-mode:overlay">
-<rect y="74" width="1600" height="1200" fill="url(#pattern0)"/>
+<rect y="74" width="1600" height="600" fill="url(#pattern0)"/>
 </g>
 <defs>
 <filter id="filter0_f_6_10" x="19.8359" y="0.230377" width="881.437" height="881.437" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
