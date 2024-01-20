@@ -15,6 +15,7 @@ import "./globals.css";
 import FindXHome from "../assets/images/FindXHomeScreen.png";
 import laptop from "../assets/animations/laptopX.json";
 import { Kaushan_Script } from "next/font/google";
+import AnonTitle from "../assets/images/AnonminoHome.png";
 
 const kaushenScript = Kaushan_Script({ subsets: ["latin"],
   display: "swap",
@@ -187,14 +188,15 @@ export default function Home() {
         preserveAspectRatio: "xMidYMid slice",
       },
     }}
-    height={200}
-    width={200}
+    height={250}
+    width={250}
     style={{
       position: "absolute",
       bottom: "0",
       left: "50%",
       transform: "translateX(-50%)",
       zIndex: "0",
+      marginBottom: "1%",
     }}
     />
 
@@ -220,7 +222,7 @@ export default function Home() {
       </h1>
     </div>
 
-    <Fade direction="up" triggerOnce={true} duration={500} delay={100} >
+    <Fade direction="up" triggerOnce={true} duration={500} delay={100}  >
 
 
     <div style={{ textAlign: "center", justifyContent: "center", display: "flex", width: "100vw"}}>
@@ -235,7 +237,7 @@ export default function Home() {
         Here are some of my projects
       </h2>
     </div>
-    {/* Find X Project*/}
+    {/* Anonimo Project*/}
 
     <div
     style={{
@@ -260,13 +262,12 @@ export default function Home() {
                   //cursor: 'zoom-in'
                     cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
                     borderRadius: "2px",
-                    backgroundColor: "blue",
                   }}>
                   <figure style={{
                     width: "100%",
                     padding: "10px",
                   }}>
-                    <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
+                    <Image src={AnonTitle} alt="Album" style={{ width: "100%" }}/>
                   </figure>
                   <div className="card-body" style={{
                     width: "100%",
@@ -314,7 +315,7 @@ export default function Home() {
                   }}>
                   <figure style={{
                     width: "100%",
-                    padding: "10px",
+                    padding: "30px",
                   }}>
                     <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
                   </figure>
