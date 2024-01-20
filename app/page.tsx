@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import Grid from '@mui/material/Grid';
 import Button from "@mui/material/Button";
 import React, { useEffect, useState } from "react";
-import { Zoom } from "react-awesome-reveal";
+import { Zoom, Slide, Fade } from "react-awesome-reveal";
 import Lottie from "react-lottie";
 import animationData from "../assets/animations/codingAnimation.json"
 import Container from 'react-bootstrap/Container';
@@ -220,6 +220,9 @@ export default function Home() {
       </h1>
     </div>
 
+    <Fade direction="up" triggerOnce={true} duration={500} delay={100} >
+
+
     <div style={{ textAlign: "center", justifyContent: "center", display: "flex", width: "100vw"}}>
       <h2
         style={{
@@ -277,7 +280,13 @@ export default function Home() {
                 </div>
       </div>
 </div>
+</Fade>
+
     {/*  Anonimo Project*/}
+    <Fade direction="up" triggerOnce={true} duration={500} delay={100} >
+
+    {/* Find X Project*/}
+
     <div
     style={{
       position: "relative",
@@ -301,7 +310,7 @@ export default function Home() {
                   //cursor: 'zoom-in'
                     cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
                     borderRadius: "2px",
-                    backgroundColor: "#4c4cff",
+                    backgroundColor: "blue",
                   }}>
                   <figure style={{
                     width: "100%",
@@ -321,51 +330,56 @@ export default function Home() {
                 </div>
       </div>
 </div>
-
+</Fade>
  {/*  NewsWebsite Project*/}
- <div
-    style={{
-      position: "relative",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      width: "100%",
-    }} 
-    >
-      <div style={{
-        position: "relative",
-        borderRadius: "0px",
-      }}>
-                <div className="card lg:card-side bg-base-100 shadow-xl" style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  width: "90vw",
-                  //cursor: 'zoom-in',
-                    cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
-                    borderRadius: "2px",
-                    backgroundColor: "#9999ff",
-                  }}>
-                  <figure style={{
-                    width: "100%",
-                    padding: "10px",
-                  }}>
-                    <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
-                  </figure>
-                  <div className="card-body" style={{
-                    width: "100%",
-                  }}>
-                    <h2 className="card-title">New album is released!</h2>
-                    <p>Click the button to listen on Spotiwhy app.</p>
-                    <div className="card-actions justify-end">
-                      <button className="btn btn-primary">Listen</button>
-                    </div>
-                  </div>
+ <Fade direction="up" triggerOnce={true} duration={500} delay={100} >
+
+{/* Find X Project*/}
+
+<div
+style={{
+  position: "relative",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "100%",
+  marginBottom: "2rem",
+  marginTop: "2rem",
+}} 
+>
+  <div style={{
+    position: "relative",
+    borderRadius: "0px",
+  }}>
+            <div className="card lg:card-side bg-base-100 shadow-xl" style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "90vw",
+              //cursor: 'zoom-in'
+                cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
+                borderRadius: "2px",
+                backgroundColor: "blue",
+              }}>
+              <figure style={{
+                width: "100%",
+                padding: "10px",
+              }}>
+                <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
+              </figure>
+              <div className="card-body" style={{
+                width: "100%",
+              }}>
+                <h2 className="card-title">New album is released!</h2>
+                <p>Click the button to listen on Spotiwhy app.</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Listen</button>
                 </div>
-      </div>
+              </div>
+            </div>
+  </div>
 </div>
-
-
+</Fade>
 
 
    

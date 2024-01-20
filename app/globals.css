@@ -71,19 +71,21 @@ body {
 }
 
 @media (max-width: 480px) {
+  
+
   .heroContainer{
     justify-content: center !important;
     align-items: center !important;
     height: 100vh !important;
   }
   .heroTitle {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-left: 0.5em !important;
     text-align: center !important;
   }
 
   .heroSubtitle {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-left: 0.5em !important;
     text-align: center !important;
 
@@ -91,7 +93,7 @@ body {
   }
 
   .heroParagraph {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 1em !important;
 
   }
