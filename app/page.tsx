@@ -16,6 +16,8 @@ import FindXHome from "../assets/images/FindXHomeScreen.png";
 import laptop from "../assets/animations/laptopX.json";
 import { Kaushan_Script } from "next/font/google";
 import AnonTitle from "../assets/images/AnonminoHome.png";
+import ExternalLink from "../assets/images/ExternalLink.svg";
+
 
 const kaushenScript = Kaushan_Script({ subsets: ["latin"],
   display: "swap",
@@ -48,7 +50,7 @@ export default function Home() {
         zIndex: 1,
         alignItems: "center",
       }}>
-    <a className="btn btn-ghost text-xl font-bold" style={{
+    <a className="btn btn-ghost font-bold mainNavText" style={{
       fontSize: "2rem",
       fontWeight: "bold",
       backgroundColor: "transparent",
@@ -87,7 +89,7 @@ export default function Home() {
     </a>
   </div>
   <div className="flex-none" style={{
-    fontSize: "3rem",
+    fontSize: "4rem",
   }}>
     <ul className="menu menu-horizontal px-1">
       <li><a href="#projects">Projects</a></li>
@@ -271,11 +273,26 @@ export default function Home() {
                   </figure>
                   <div className="card-body" style={{
                     width: "100%",
+                    alignItems: "center",
+                    textAlign: "justify",
+                    
                   }}>
-                    <h2 className="card-title">New album is released!</h2>
-                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <h2 className="card-title" style={{
+                      textAlign: "center",
+
+                    }}>Anonimo</h2>
+                    <p className="card-para">Anonimo is a social media website allowing users to make posts expressing their emotioms. The website also have support for a therapist 
+                      section where users can make appointments with therapists and have a chat with them. 
+                    </p>
                     <div className="card-actions justify-end">
-                      <button className="btn btn-primary">Listen</button>
+                      <a href="https://github.com/rangelkoli/Anonimo-ML"> 
+                    <button style={{ display: "flex", alignItems: "center" }}>
+                      <span className="box">
+                        Github 
+                        <Image src={ExternalLink} alt="Album" width={20} height={20} style={{ marginLeft: "0.5rem", color: "white" }} />
+                      </span>
+                    </button>
+                    </a>
                     </div>
                   </div>
                 </div>
