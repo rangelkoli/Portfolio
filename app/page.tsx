@@ -17,6 +17,8 @@ import laptop from "../assets/animations/laptopX.json";
 import { Kaushan_Script } from "next/font/google";
 import AnonTitle from "../assets/images/AnonminoHome.png";
 import ExternalLink from "../assets/images/ExternalLink.svg";
+import Link from "next/link";
+import FindXMain from "../assets/images/FindXNew1.png";
 
 
 const kaushenScript = Kaushan_Script({ subsets: ["latin"],
@@ -41,13 +43,13 @@ export default function Home() {
     }}>
           {/* Navbar*/}
 
-      <div className="navbar">
+          <div className="navbar  top-0">
   <div className="flex-1" onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{
         position: "relative",
         top: 0,
-        zIndex: 1,
+        zIndex: 1000000,
         alignItems: "center",
       }}>
     <a className="btn btn-ghost font-bold mainNavText" style={{
@@ -96,6 +98,13 @@ export default function Home() {
       <li>
         <a>
           About
+        </a>
+      </li>
+      <li>
+        <a href="">
+          Resume
+          <Image src={ExternalLink} alt="Album" width={20} height={20} style={{ marginLeft: "0.5rem", color: "white" }} />
+
         </a>
       </li>
     </ul>
@@ -293,10 +302,92 @@ export default function Home() {
                       </span>
                     </button>
                     </a>
+
+                    <Link href="/anonimo"> 
+                    <button style={{ display: "flex", alignItems: "center" }}>
+                      <span className="box">
+                        Project 
+                        <Image src={ExternalLink} alt="Album" width={20} height={20} style={{ marginLeft: "0.5rem", color: "white" }} />
+                      </span>
+                    </button>
+                    </Link>
+                    
                     </div>
                   </div>
                 </div>
       </div>
+</div>
+</Fade>
+
+
+<Fade direction="up" triggerOnce={true} duration={500} delay={100}  >
+
+<div
+style={{
+  position: "relative",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "100%",
+  marginBottom: "2rem",
+  marginTop: "2rem",
+}} 
+>
+  <div style={{
+    position: "relative",
+    borderRadius: "0px",
+  }}>
+            <div className="card lg:card-side bg-base-100 shadow-xl" style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "90vw",
+              //cursor: 'zoom-in'
+                cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
+                borderRadius: "2px",
+              }}>
+              <figure style={{
+                width: "100%",
+                padding: "10px",
+              }}>
+                <Image src={FindXMain} alt="Album" style={{ width: "100%" }}/>
+              </figure>
+              <div className="card-body" style={{
+                width: "100%",
+                alignItems: "center",
+                textAlign: "justify",
+                
+              }}>
+                <h2 className="card-title" style={{
+                  textAlign: "center",
+
+                }}>Anonimo</h2>
+                <p className="card-para">Anonimo is a social media website allowing users to make posts expressing their emotioms. The website also have support for a therapist 
+                  section where users can make appointments with therapists and have a chat with them. 
+                </p>
+                <div className="card-actions justify-end">
+                  <a href="https://github.com/rangelkoli/Anonimo-ML"> 
+                <button style={{ display: "flex", alignItems: "center" }}>
+                  <span className="box">
+                    Github 
+                    <Image src={ExternalLink} alt="Album" width={20} height={20} style={{ marginLeft: "0.5rem", color: "white" }} />
+                  </span>
+                </button>
+                </a>
+
+                <Link href="/anonimo"> 
+                <button style={{ display: "flex", alignItems: "center" }}>
+                  <span className="box">
+                    Project 
+                    <Image src={ExternalLink} alt="Album" width={20} height={20} style={{ marginLeft: "0.5rem", color: "white" }} />
+                  </span>
+                </button>
+                </Link>
+                
+                </div>
+              </div>
+            </div>
+  </div>
 </div>
 </Fade>
 
