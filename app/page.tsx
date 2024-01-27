@@ -361,10 +361,8 @@ style={{
                 <h2 className="card-title" style={{
                   textAlign: "center",
 
-                }}>Anonimo</h2>
-                <p className="card-para">Anonimo is a social media website allowing users to make posts expressing their emotioms. The website also have support for a therapist 
-                  section where users can make appointments with therapists and have a chat with them. 
-                </p>
+                }}>FindX</h2>
+                <p className="card-para">FindX is a webapp which allows users to scan the face of a suspicious(missing) person and detect whether the captured image is of a missing person or not and notify the nearest and root police stations.</p>
                 <div className="card-actions justify-end">
                   <a href="https://github.com/rangelkoli/Anonimo-ML"> 
                 <button style={{ display: "flex", alignItems: "center" }}>
@@ -384,105 +382,6 @@ style={{
                 </button>
                 </Link>
                 
-                </div>
-              </div>
-            </div>
-  </div>
-</div>
-</Fade>
-
-    {/*  Anonimo Project*/}
-    <Fade direction="up" triggerOnce={true} duration={500} delay={100} >
-
-    {/* Find X Project*/}
-
-    <div
-    style={{
-      position: "relative",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      width: "100%",
-      marginBottom: "2rem",
-      marginTop: "2rem",
-    }} 
-    >
-      <div style={{
-        position: "relative",
-        borderRadius: "0px",
-      }}>
-                <div className="card lg:card-side bg-base-100 shadow-xl" style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  width: "90vw",
-                  //cursor: 'zoom-in'
-                    cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
-                    borderRadius: "2px",
-                    backgroundColor: "blue",
-                  }}>
-                  <figure style={{
-                    width: "100%",
-                    padding: "30px",
-                  }}>
-                    <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
-                  </figure>
-                  <div className="card-body" style={{
-                    width: "100%",
-                  }}>
-                    <h2 className="card-title">New album is released!</h2>
-                    <p>Click the button to listen on Spotiwhy app.</p>
-                    <div className="card-actions justify-end">
-                      <button className="btn btn-primary">Listen</button>
-                    </div>
-                  </div>
-                </div>
-      </div>
-</div>
-</Fade>
- {/*  NewsWebsite Project*/}
- <Fade direction="up" triggerOnce={true} duration={500} delay={100} >
-
-{/* Find X Project*/}
-
-<div
-style={{
-  position: "relative",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  width: "100%",
-  marginBottom: "2rem",
-  marginTop: "2rem",
-}} 
->
-  <div style={{
-    position: "relative",
-    borderRadius: "0px",
-  }}>
-            <div className="card lg:card-side bg-base-100 shadow-xl" style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "90vw",
-              //cursor: 'zoom-in'
-                cursor: `url('https://example.com/magnifying_glass.svg'), auto`,
-                borderRadius: "2px",
-                backgroundColor: "blue",
-              }}>
-              <figure style={{
-                width: "100%",
-                padding: "10px",
-              }}>
-                <Image src={FindXHome} alt="Album" style={{ width: "100%" }}/>
-              </figure>
-              <div className="card-body" style={{
-                width: "100%",
-              }}>
-                <h2 className="card-title">New album is released!</h2>
-                <p>Click the button to listen on Spotiwhy app.</p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Listen</button>
                 </div>
               </div>
             </div>
