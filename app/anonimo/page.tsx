@@ -53,7 +53,6 @@ const Anonimo = () => {
                 <Typography
                   variant="h5"
                   style={{
-                    fontFamily: kaushenScript,
                     color: "white",
                     textAlign: "start",
                   }}
@@ -101,7 +100,6 @@ const Anonimo = () => {
                 <Typography
                   variant="h5"
                   style={{
-                    fontFamily: kaushenScript,
                     color: "white",
                     textAlign: "start",
                   }}
@@ -146,7 +144,6 @@ const Anonimo = () => {
                   variant="h5"
                   className="text-center font-bold text-2xl"
                   style={{
-                    fontFamily: kaushenScript,
                     color: "white",
                     marginTop: "0.5rem",
                   }}
@@ -160,7 +157,6 @@ const Anonimo = () => {
                   variant="h5"
                   className="text-center font-bold text-2xl"
                   style={{
-                    fontFamily: kaushenScript,
                     color: "white",
                     marginTop: "0.5rem",
                   }}
@@ -174,7 +170,6 @@ const Anonimo = () => {
                   variant="h5"
                   className="text-center font-bold text-2xl"
                   style={{
-                    fontFamily: kaushenScript,
                     color: "white",
                     marginTop: "0.5rem",
                   }}
