@@ -285,7 +285,7 @@ const Anonimo = () => {
         <h2 className="mt-4 text-xl font-bold text-white">Home Page</h2>
 
         <p className="mt-1 text-sm text-gray-300">
-        The initial landing page provides users with a concise overview of the website's purpose and functionality upon their first visit.
+        The initial landing page provides users with a concise overview of the website&apos;s purpose and functionality upon their first visit.
         </p>
       </a>
 
@@ -345,7 +345,7 @@ const Anonimo = () => {
         <h2 className="mt-4 text-xl font-bold text-white">Login/Signup</h2>
 
         <p className="mt-1 text-sm text-gray-300">
-        Serving as the website's gateway, this page requires user authentication through login. Alternatively, new users can create an account by clicking on the signup link to access all features.
+        Serving as the website&apos;s gateway, this page requires user authentication through login. Alternatively, new users can create an account by clicking on the signup link to access all features.
         </p>
       </a>
 
@@ -375,7 +375,7 @@ const Anonimo = () => {
         <h2 className="mt-4 text-xl font-bold text-white">Profile</h2>
 
         <p className="mt-1 text-sm text-gray-300">
-        The user-specific profile page displays detailed information, including the user's name, bio, and activity statistics such as the number of posts, followers, and following counts. Users can manage connections by sending friend requests or unfriending others. Additionally, the chat functionality is accessible through this page.
+        The user-specific profile page displays detailed information, including the user&apos;s name, bio, and activity statistics such as the number of posts, followers, and following counts. Users can manage connections by sending friend requests or unfriending others. Additionally, the chat functionality is accessible through this page.
         </p>
       </a>
 
