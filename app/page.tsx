@@ -409,7 +409,7 @@ style={{
                         <h2 className="mt-4 mb-6 text-2xl  dark:text-gray-300" style={{
                           textAlign: "justify"
                         }}>
-                        Greetings! I am Rangel Anselm Koli, a passionate and dedicated software developer based in Syracuse, NY. Pursuing a Master's in Computer Science from Syracuse University and a strong foundation in Information Technology from Mumbai University, I am committed to contributing my technical acumen to drive innovation and facilitate organizational growth in the dynamic field of IT.</h2>
+                        Greetings! I am Rangel Anselm Koli, a passionate and dedicated software developer based in Syracuse, NY. Pursuing a Master&apos;s in Computer Science from Syracuse University and a strong foundation in Information Technology from Mumbai University, I am committed to contributing my technical acumen to drive innovation and facilitate organizational growth in the dynamic field of IT.</h2>
          
                     </div>
                 </div>
