@@ -48,5 +48,8 @@
         text-align: start !important;
 
     }
+    .headerMainForAnonimo .mockup-browser{
+        width: 80% !important;
+    }
 }
 
