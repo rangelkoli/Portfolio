@@ -19,6 +19,7 @@ import AnonTitle from "../assets/images/AnonminoHome.png";
 import ExternalLink from "../assets/images/ExternalLink.svg";
 import Link from "next/link";
 import FindXMain from "../assets/images/FindXNew1.png";
+import { HeroParallax } from "./components/HeroSection";
 
 
 const kaushenScript = Kaushan_Script({ subsets: ["latin"],
@@ -110,15 +111,102 @@ export default function Home() {
     </ul>
   </div>
 </div>
+<HeroParallax  
+products={[
+  {
+    title: "FindX Home Screen",
+    link: "/dsa",
+    thumbnail: "/assets/images/anonimo/image10.png",
+  },
+  {
+  title: "Anonimo",
+  link: "/anonimo",
+  thumbnail: "/assets/images/anonimo/AnonHome.png",
+},
+{
+  title: "FindX",
+  link: "/anonimo",
+  thumbnail: "/assets/images/anonimo/image6.png",
 
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/anonimo/image19.png",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/anonimo/profile.png",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/FindXHomeScreen.png",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/findx/image12.jpg",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/findx/image13.jpg",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/findx/image21.jpg",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/findx/image26.jpg",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/anonimo/AnonHome.jpeg",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/readTogetherGRP.png",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/readTogetherReader.png",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/findx/image28.png",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/readTogetherReader.png",
+},
+{
+  title: "FindX Home Screen",
+  link: "/dsa",
+  thumbnail: "/assets/images/readTogetherGRP.png",
+},
+
+
+]}/>
 <div className="container">
-  <Container fluid style={{
+
+  {/* <Container fluid style={{
     height: "95vh",
     width: "100vw",
     position: "relative",
   }}
   className="heroContainer"
   >
+
   
     <Grid container spacing={2}>
    
@@ -214,7 +302,7 @@ export default function Home() {
 
 
  
-  </Container>
+  </Container> */}
 
 
   </div>
@@ -364,7 +452,7 @@ style={{
                 }}>FindX</h2>
                 <p className="card-para">FindX is a webapp which allows users to scan the face of a suspicious(missing) person and detect whether the captured image is of a missing person or not and notify the nearest and root police stations.</p>
                 <div className="card-actions justify-end">
-                  <a href="https://github.com/rangelkoli/Anonimo-ML"> 
+                  <a href="https://github.com/rangelkoli/FindX"> 
                 <button style={{ display: "flex", alignItems: "center" }}>
                   <span className="box">
                     Github 
@@ -372,7 +460,7 @@ style={{
                   </span>
                 </button>
                 </a>
-
+{/* 
                 <Link href="/anonimo"> 
                 <button style={{ display: "flex", alignItems: "center" }}>
                   <span className="box">
@@ -380,7 +468,7 @@ style={{
                     <Image src={ExternalLink} alt="Album" width={20} height={20} style={{ marginLeft: "0.5rem", color: "white" }} />
                   </span>
                 </button>
-                </Link>
+                </Link> */}
                 
                 </div>
               </div>
@@ -399,7 +487,7 @@ style={{
 
 
 <section className="aboutme" id="aboutme">
-<section className="flex items-center bg-stone-50 xl:h-screen font-poppins dark:bg-gray-800 ">
+<section className="flex items-center bg-stone-50 xl:h-screen font-poppins dark:bg-black ">
         <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
             <div className="flex flex-wrap items-center ">
                 <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">

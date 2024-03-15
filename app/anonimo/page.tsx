@@ -159,7 +159,6 @@ const Anonimo = () => {
   </div>
   <span className="flex items-center">
   <span className="h-px flex-1 bg-white"></span>
-  <span className="shrink-0 px-6">Lorem, ipsum dolor</span>
   <span className="h-px flex-1 bg-white"></span>
 </span>
         <Container maxWidth="md">
@@ -205,39 +204,7 @@ const Anonimo = () => {
             marginTop: "2rem",
             
           }}>
-              <div className="flex flex-col-8 justify-center" style={{ flex: 1 }}>
-                
-                <Typography
-                  variant="h5"
-                  style={{
-                    color: "white",
-                    textAlign: "start",
-                  }}
-                >
-                  Anonimo
-                </Typography>
-                <div className="flex flex-col">
-                  <Typography
-                    variant="h5"
-                    className="subTitle"
-                    
-                  >
-                    Mental Health Social Network
-                  </Typography>
-                </div>
-              </div>
-
-              <div className="flex flex-col justify-center" style={{ flex: 1 }}>
-                <div className="flex flex-col">
-                  <Typography
-                    variant="h5"
-                    className="techUsed"
-                    
-                  >
-                    Machine Learning/ Software Developer
-                  </Typography>
-                </div>
-              </div>
+            
             
           </div>
 
